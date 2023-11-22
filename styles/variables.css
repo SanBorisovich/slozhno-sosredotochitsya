@@ -11,3 +11,10 @@
   --rec: flex;
   --button-hover: #FF007066;
 }
+
+@media (width < 768px) {
+  :root {
+    --padding: 10px;
+    --section-margin: 50px;
+  }
+}

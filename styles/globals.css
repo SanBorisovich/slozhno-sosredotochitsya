@@ -26,6 +26,10 @@ p {
   line-height: 23.4px;
 }
 
+p {
+  margin-block-start: 10px;
+}
+
 ul {
   margin: 0;
   padding: 0;
