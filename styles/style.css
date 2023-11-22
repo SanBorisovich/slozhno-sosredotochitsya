@@ -151,7 +151,7 @@
 @media (width < 1024px) {
   .header {
     block-size: calc(100vh - 2* var(--padding));
-    min-height: 984px;
+    min-height: 1024px;
   }
 
   .header__theme-menu {
@@ -390,7 +390,7 @@
 @media (width < 1024px) {
   .footer {
     block-size: calc(100vh - 2* var(--padding));
-    min-height: 984px;
+    min-height: 1024px;
   }
 }
 
