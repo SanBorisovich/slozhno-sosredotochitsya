@@ -20,6 +20,10 @@ h5,
 h6,
 p {
   margin: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.4px;
 }
 
 ul {
@@ -39,4 +43,21 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+a {
+  text-shadow: 2px 2px 0 var(--background-color-text);
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid var(--text-color);
+}
+
+a:focus {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: 1px solid var(--text-color);
 }
