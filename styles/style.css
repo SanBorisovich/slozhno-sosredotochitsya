@@ -1,5 +1,5 @@
 .page {
-  font-family: "IBM Plex mono", sans-serif;
+  font-family: "IBM Plex mono", Arial, Helvetica, sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
   background-image: var(--background-image);
@@ -143,7 +143,6 @@
 
 .header__description-text {
   color: var(--selected-text);
-  font-family: IBM Plex Mono;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
