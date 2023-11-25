@@ -15,7 +15,6 @@
 .header {
   position: relative;
   inline-size: 100%;
-  block-size: 100vh;
   min-height: 768px;
   display: grid;
   grid-template-rows: 1fr auto 1fr;
@@ -155,7 +154,6 @@
 
 @media (width < 1024px) {
   .header {
-    block-size: 100vh;
     min-height: 1024px;
   }
 
@@ -172,7 +170,6 @@
 @media (width < 768px) {
 
   .header {
-    block-size: 100vh;
     min-height: 668px;
   }
 
@@ -355,7 +352,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  block-size: 100vh;
   min-height: 768px;
   inline-size: 100%;
   padding: var(--padding) 0;
@@ -374,14 +370,12 @@
 
 @media (width < 1024px) {
   .footer {
-    block-size: 100vh;
     min-height: 1024px;
   }
 }
 
 @media (width < 768px) {
   .footer {
-    block-size: 100vh;
     min-height: 667px;
   }
 
